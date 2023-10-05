@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+    <script src="lib/quicksettings.js"></script>
+    <script src="lib/p5.gui.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+
+    <script src="sketch.js"></script>
+    <script src="controlsAndInput.js"></script>
+    <script src="checkControls.js"></script>
+    <script src="visualisations.js"></script>
+
+    
+    <script src="ridgeplots.js"></script> 
+    <script src="blockslines.js"></script>
+    <script src="dancingcubes.js"></script>
+    <script src="fireworksmain.js"></script>
+    <script src="beatsDetect.js"></script>
+    <script src="fireworks.js"></script>
+    <script src="indivfirework.js"></script>
+    <script src="particle.js"></script>
+
+    
+  <style> body {padding: 0; margin: 0;} </style>
+  
+</head>
+  
+</html>
+
+<!-- refreshes every 5 mins to prevent lag -->
+<script type="text/javascript">
+  function load()
+  {
+  setTimeout("window.open(self.location, '_self');", 5*60000);
+  }
+  </script>
+  <body onload="load()">
